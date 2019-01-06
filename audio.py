@@ -315,4 +315,4 @@ async def volume(con,vol:float):
 #             print("Unable to load extension {} error {}".format(extension, error))
 
 
-bot.run('NTMxNTAwNjc4MTY2NzQwOTky.DxPGmQ.8JM6ovo3xXzJyLA_w4Wz-YZr478') #do not post your bot token publically 
+bot.run('Your bot token here') #do not post your bot token publically 
