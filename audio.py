@@ -4,6 +4,7 @@ import youtube_dl
 from discord.ext import commands
 from discord.utils import find
 import requests as rq
+import os
 
 
 def get_prefix(bot, msg):
