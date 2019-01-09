@@ -22,7 +22,7 @@ def get_prefix(bot, msg):
     return commands.when_mentioned_or(*prefixes)(bot, msg)
 
 
-bot = commands.Bot(command_prefix=get_prefix,description='A music bot fro discord Kurusaki')
+bot = commands.Bot(command_prefix=get_prefix,description='A music bot from discord EBMC')
 
 bot.remove_command('help')
 
@@ -109,7 +109,7 @@ async def on_voice_state_update(before, after):
                             paused[before.server.id]=False
                             now_playing[before.server.id]=None
                             song_names[before.server.id].clear()
-                            await bot.send_message(discord.Object(id=rq_channel[before.server.id]),"**Kurusaki left because there was no one inside `{}`**".format(before.voice.voice_channel))
+                            await bot.send_message(discord.Object(id=rq_channel[before.server.id]),"**Moosac Bot left because there was no one inside `{}`**".format(before.voice.voice_channel))
 
 
 
